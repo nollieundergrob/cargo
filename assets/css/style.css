@@ -30,19 +30,19 @@ body{
     background: #282B38;
     overflow-x: hidden;
 }
-.containerH{
-    width: 1140px;
+.container{
+    max-width: 1140px;
     margin: 0 auto;
 }
-.container{
-    width: 1820px;
+.page_section{
+   max-width: 1820px;
     margin: 0 auto;
 }
 a:hover{
     color: orange;
 }
 /* heaader */
-.h_wr{
+.wrapper_header{
     padding: 25px 0;
     display: flex;
     align-items: center;
@@ -78,12 +78,216 @@ header li:not(last-childe){
 .h_linkB:hover{
     color: rgba(0, 0, 0, 0.575);
 }
+/* Секция 1 */
+.intro
+{
+    background: url(../img/bg1.png) no-repeat center center / cover;
+  
+}
+.cparrow
+{
+    cursor: pointer;
+}
+.wrapper_intro
+{
+    margin: 0 auto;
+    max-width: 1520px;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item_intro
+{
+    display: flex;
+    align-items: center;
+}
+.title_intro
+{
+    font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 126%;
+/* or 71px */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.sub_title_intro
+{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135.5%;
+    /* or 27px */
+    
+    
+    color: #FFFFFF; 
+}
+.mb10px
+{
+    margin-bottom: 10px;
+}
+.mb40px
+{
+    margin-bottom: 40px;
+}
+.text_intro
+{
+    margin-left: 145px;
+    width: 464px;
+    height: 300px;
+;
+}
+.yellow_button
+{
+    font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 146%;
+/* or 23px */
+display: flex;
+align-items: center;
+width: 293px;
+justify-content: space-between;
+transition: 0.5s;
+color: #FFFFFF;
+padding: 15px 20px;
+background: #E58D35;
+border-radius: 90px;
+}
+.yellow_button:hover
+{
+    padding-right: 10px;
+}
+/* Секция 2 */
+.title_section
+{
+    font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 124.5%;
+/* or 45px */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.title_row
+{
+    width: 650px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.line
+{
+    margin-left: 20px;
+    width: 85px;
+    height: 2px;
+    background: #89C249;
+}
+.wrapper
+{
+    padding: 100px 0px;
+
+}
+.menu_block
+{
+    background: #363A4D;
+border-radius: 20px;
+width: 650px;
+padding: 70px 50px 40px 50px;
+}
+.name_input
+{
+    position: relative;
+    font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 126%;
+/* identical to box height, or 19px */
 
 
+color: #FFFFFF;
+}
+.rounds_numb
+{
+    margin-top: -100px;
+    display: flex;
+    width: 260px;
+    justify-content: space-between;
+}
+.text_content
+{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.item_text
+{
+    width: 250px;
+}
+.text_inp
+{
+    margin-bottom: 20px;
+    font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 126%;
+/* identical to box height, or 19px */
+
+background: #FFFFFF;
+border-radius: 10px;
+color: #282B38;
+padding: 18px 20px;
+width: 250px;
+border: none;
+margin-top: 5px;
+}
+.text_inp::placeholder
+{
+    font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 126%;
+/* identical to box height, or 19px */
 
 
+color: #CBCBCB;
 
-
+}
+.text_inp:focus
+{
+    outline: 0;
+}
+.volume_calculation
+{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 146%;
+    /* or 20px */
+    
+    text-decoration-line: underline;
+    transition: 0.5s;
+    color: #E58D35;   
+}
+.row_content
+{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
