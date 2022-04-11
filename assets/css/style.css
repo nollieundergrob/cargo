@@ -92,6 +92,7 @@ header li:not(last-childe){
 }
 .wrapper_intro
 {
+    position: relative;
     margin: 0 auto;
     max-width: 1520px;
     height: 700px;
@@ -116,6 +117,28 @@ line-height: 126%;
 text-transform: uppercase;
 
 color: #FFFFFF;
+}
+.item_intro::after
+{
+    
+    display: block;
+    content: "";
+    position:absolute;
+    right: 0;
+    width: 46px;
+    height: 46px;
+    background: url(../img/1.svg);
+    cursor: pointer;
+
+}
+.item_intro::before
+{
+    display: block;
+    content: "";
+    width: 46px;
+    height: 46px;
+    background: url(../img/2.svg);
+    cursor: pointer;
 }
 .sub_title_intro
 {
@@ -355,15 +378,187 @@ color: #FFFFFF;
 {
     position: absolute;
     margin-left: 560px;
-    z-index: 10;
+    margin-top: -57px;
+    z-index: 9;
 }
 .item_section
 {
     position: relative;
 }
+.blueback
+{
+    z-index: 10;
+    background: linear-gradient(0deg, #363A4D, #363A4D), #F7F7F7;
+border-radius: 20px;
+}
+.orline
+{
+width: 85px;
+height: 2px;
+margin: 0 auto;
+background-color: #E58D35;
+}
+.content_text
+{
+    font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 124.5%;
+/* or 22px */
+width: 180px;
 
+text-align: center;
 
+color: #FFFFFF;
+}
+.content_item
+{
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.contimg
+{
+    width: 113px;
+    height: 113px;
+    margin-bottom: 25px;
+}
+.content_block
+{
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+/* Секция 4 */
+.card_item
+{
+    width: 360px;
+    background: #363A4D;
+/* shadow */
 
+box-shadow: 5px 15px 40px rgba(30, 35, 66, 0.15);
+border-radius: 20px;
+}
+.card_title
+{
+    font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 124.5%;
+/* or 27px */
 
+text-align: center;
 
+color: #FFFFFF;
+margin-top: 30px;
+margin-bottom: 15px;
+}
+.text_card
+{
+    padding: 0px 20px;
+}
+.row_card
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.item_row
+{
+    display: flex;
+    margin: 0px 20px;
+}
+.row_text
+{
+    display: flex;
+    justify-content: center;
+}
+.ot
+{
+    font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 124.5%;
+/* or 27px */
 
+text-align: center;
+
+color: #A3A3A3;
+}
+.price
+{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 124.5%;
+    /* or 27px */
+    
+    text-align: center;
+    
+    color: #A3A3A3; 
+}
+.KG
+{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 124.5%;
+    /* or 27px */
+    
+    text-align: center;
+    
+    color: #A3A3A3; 
+}
+.fcardbtn
+{
+    background: #E58D35;
+border-radius: 90px;font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 146%;
+/* identical to box height, or 22px */
+
+text-align: center;
+
+color: #FFFFFF;
+padding: 15px 20px;
+}
+.scardbtn
+{
+    border-radius: 90px;font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 146%;
+    /* identical to box height, or 22px */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    border: 1px solid #E58D35;
+box-sizing: border-box;
+border-radius: 90px;
+padding: 14px 25px;
+}
+.row_texts
+{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+   padding-bottom: 30px;
+}
+.content_box
+{
+    display: flex;
+    justify-content: space-between;
+}
