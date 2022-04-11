@@ -28,6 +28,7 @@
 body{
     font-family: "Proxima Nova";
     background: #282B38;
+    overflow-x: hidden;
 }
 .containerH{
     width: 1140px;
