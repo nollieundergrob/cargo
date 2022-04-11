@@ -39,7 +39,7 @@ body{
     margin: 0 auto;
 }
 a:hover{
-    color: orange;
+   color: #FFFFFF;
 }
 /* heaader */
 .wrapper_header{
@@ -60,11 +60,13 @@ header ul{
     font-size: 16px;
     line-height: 146%;
     color: #FFFFFF;
+    transition: 0.3s;
 }
 header li:not(last-childe){
     margin-right: 50px;
 }
 .h_linkB{
+    transition: 0.3s;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -144,6 +146,8 @@ color: #FFFFFF;
 }
 .yellow_button
 {
+    cursor: pointer;
+    border: none;
     font-family: 'Proxima Nova';
 font-style: normal;
 font-weight: 600;
@@ -288,11 +292,75 @@ color: #CBCBCB;
     display: flex;
     justify-content: space-between;
 }
+.checkbox
+{
+    border: none;
+    width: 24px;
+    height: 24px;
+    background: #FFFFFF;
+border: 1px solid #282B38;
+box-sizing: border-box;
+border-radius: 4px;
+margin-right: 10px;
+}
+.row_contents
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.item_upload
+{
+    width: 100%;
+}
+.red_link
+{
+    font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 126%;
+/* or 16px */
+transition: 00.5s;
+text-decoration-line: underline;
 
+color: #E53535;
 
+}
+.Upload_photo
+{
+    display: flex;
+    border: 1px dashed rgba(255, 255, 255, 0.26);
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 15px 0px;
+    justify-content: center;
+    margin-top: 20px;
+align-items: center;
+margin-bottom: 25px;
+}
+.upload
+{
+    font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 126%;
+/* or 19px */
 
-
-
+text-align: center;
+color: #FFFFFF;
+}
+.hardman
+{
+    position: absolute;
+    margin-left: 560px;
+    z-index: 10;
+}
+.item_section
+{
+    position: relative;
+}
 
 
 
