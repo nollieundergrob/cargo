@@ -562,3 +562,31 @@ padding: 14px 25px;
     display: flex;
     justify-content: space-between;
 }
+/* Секция 4*/
+.service_card_item
+{
+    width: 360px;
+    background: url("../img/asdddd.png") no-repeat center center / cover ;
+
+    height: 482px;
+}
+.service_card_item2
+{
+    width: 360px;
+    background: url("../img/ddddd.png") no-repeat center center / cover ;
+
+    height: 482px;
+}
+.service_card_item3
+{
+    width: 360px;
+    background: url("../img/sgsdgsg.png") no-repeat center center / cover ;
+
+    height: 482px;
+}
+.text_card1
+{
+    padding: 0px 10px 0px 10px;
+    width: 300px;
+    margin: 0 auto;
+}
