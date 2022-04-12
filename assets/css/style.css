@@ -22,7 +22,6 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    list-style: none;
     box-sizing: border-box;
 }
 body{
@@ -53,6 +52,7 @@ header nav{
 }
 header ul{
     display: flex;
+    list-style: none;
 }
 .h_link{
     font-style: normal;
@@ -589,4 +589,96 @@ padding: 14px 25px;
     padding: 0px 10px 0px 10px;
     width: 300px;
     margin: 0 auto;
+}
+.row_item
+{
+    padding: 15px 20px 15px 35px;
+    width: 663px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+    color: #FFFFFF;
+    border: 1px solid #3A444E;
+box-sizing: border-box;
+border-radius: 10px;
+transition: 0.5s;
+}
+.whiebox
+{
+    
+    margin-top: 15px;
+    width: 663px;
+  
+    background: #FFFFFF;
+box-shadow: 5px 15px 40px rgba(11, 24, 97, 0.32);
+border-radius: 10px;
+padding: 20px 20px 20px 35px;
+}
+.row_item:hover
+{
+   opacity: 0.3;
+}
+.row_gow
+{
+    display: flex;
+    justify-content: space-between;
+}
+.right
+{
+    width: 390px;
+padding: 40px;
+    
+background: #363A4D;
+box-shadow: 5px 15px 40px rgba(11, 24, 97, 0.32);
+border-radius: 20px;
+}
+.card_textinput:focus
+{
+    outline: 0;
+}
+.card_item::placeholder
+{
+    font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 126%;
+/* identical to box height, or 19px */
+
+
+color: #CBCBCB;
+
+}
+.card_textinput
+{
+    width: 310px;
+   padding: 15px;
+    border: none;
+    font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 126%;
+/* identical to box height, or 19px */
+
+
+
+
+background: #FFFFFF;
+border-radius: 10px;
+margin-bottom: 15px;
+}
+.item_cont_text
+{
+    font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 156.5%;
+/* or 27px */
+
+margin-bottom: 20px;
+color: #FFFFFF;
+
 }
